@@ -7,7 +7,7 @@ from docx import Document
 class App(QWidget):
     def __init__(self):
         super().__init__()
-        self.title = "PySplitter"
+        self.title = "PySplinter"
         self.left = 10
         self.top = 10
         self.width = 640
@@ -29,7 +29,7 @@ class App(QWidget):
         options |= QFileDialog.DontUseNativeDialog
         fileName, _ = QFileDialog.getOpenFileName(
             self,
-            "PySplitter",
+            "PySplinter",
             "",
             "All Files (*);;Microsoft Word Document (*.docx);;Microsoft Word Document 2003 (*.doc);;Apple Pages Document (*.pages);;Rich Text Format File (*.rtf);;Plain Text File (*.txt)",
             options=options,
